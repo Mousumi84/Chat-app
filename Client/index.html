@@ -30,27 +30,30 @@
             <div id="chatcont">
                 <h1 id="chat-head">WELCOME TO CHAT APP</h1>
                 <div id="chat">
-                    <div class="send"><span>Hey! How r u?</span></div>
-                    <div class="send"><span>R u free tonight?</span></div>
-                    <div class="receive"><span>Ya! i,m f9</span></div>
-                    <div class="receive"><span>Yes, i'm free tonight</span></div>
-                    <div class="send"><span>wld u like to go for dnr?</span></div>
-                    <div class="receive"><span>Ya! sure</span></div>
-                    <div class="send"><span>Ok!😊</span></div>
+                    <!--
+                    <div class="send">
+                        <span>
+                            <div>Mou</div>
+                            Hey! How are you?
+                        </span>
+                    </div>
+                    <div class="receive"><span><div>Abir</div>I'm fine</span></div>
+                    -->
                 </div>
             </div>
             
-            <div id="msg">
+            <div id="msg-box">
                 <input id="type-message" type="text" placeholder="Type message"/>
                 <button id="send-btn">
-                    <span class="material-symbols-outlined send-icon" >
-                    send
-                    </span>
+                    <span>
+                        <span class="material-symbols-outlined send-icon" >send</span></span>
                 </button>
             </div>
+
         </div>
     </div>
 
+    <script src="https://cdn.socket.io/4.7.5/socket.io.min.js" integrity="sha384-2huaZvOR9iDzHqslqwpR87isEmrfxqyWOF7hr7BY6KG0+hVKLoEXMPUJw3ynWuhO" crossorigin="anonymous"></script>
     <script src="ChatScript.js"></script>
 </body>
 </html>
